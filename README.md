@@ -4,6 +4,7 @@ A small CRUD API in flask with unittesting
 **All API End Points:**
 
 FOR GET (SINGLE RECORD OF TYPE) : - /get/<TYPE>/<ID>
+  
 FOR GET (ALL RECORD OF TYPE) : - /get/<TYPE>
 **For fetching use GET requet ** 
   
