@@ -3,16 +3,16 @@ A small CRUD API in flask with unittesting
 
 **All API End Points:**
 
-FOR GET (SINGLE RECORD OF TYPE) : - /get/<TYPE>/<ID>
+FOR GET (SINGLE RECORD OF TYPE) : - /get/TYPE/ID
   
-FOR GET (ALL RECORD OF TYPE) : - /get/<TYPE>
+FOR GET (ALL RECORD OF TYPE) : - /get/TYPE
 **For fetching use GET requet ** 
   
-FOR CRAETE : /create/<TYPE>
+FOR CRAETE : /create/TYPE
 **For creation use post request**
  
  
-FOR UPDATE : /update/<TYPE><ID>
+FOR UPDATE : /update/TYPE/ID
 **for udpate use PUT request**
   
 
