@@ -27,7 +27,7 @@ Base.metadata.create_all(engine)
 2). podcast - **id, name, duration, uploaded_time , participant1, participant2, participant3 ............ participant6, participant7, participant10** 
 3). AudioBook - **id, title, author, narrator, duration, uploaded_time**
 
-These are the name of the key which will be used in sending JSON data
+All the column name in the above info will be used as key while sending JSON data to server (please use same name shown above)
 
 **Example of API:**
 
