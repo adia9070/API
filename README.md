@@ -19,6 +19,7 @@ Database - Sqlite3 is used with this API and the location run.py will be execute
 **ORM is used for database mapping so in case database file is deleted, use the following code to create tables**
 
 from curd_api_package import engine, Base
+
 Base.metadata.create_all(engine)
 
 3 Tables is created inside database - 
